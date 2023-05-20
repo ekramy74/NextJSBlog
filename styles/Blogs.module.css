@@ -1,0 +1,40 @@
+.blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    user-select: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.blogs:hover {
+    border: 1px solid #4979ff;
+}
+
+.blogs p {
+    padding: 0 2rem;
+}
+
+.single {
+    padding: 2px 16px;
+    background: #fff;
+    display: block;
+    margin: 20px 10px;
+    border-left: 8px solid #4979ff;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+}
+
+.single:hover {
+    border-left: 8px solid #333;
+}
+
+.user {
+    color: #777;
+    
+}
